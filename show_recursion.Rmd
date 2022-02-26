@@ -1,0 +1,25 @@
+---
+jupyter:
+  jupytext:
+    notebook_metadata_filter: all,-language_info
+    split_at_heading: true
+    text_representation:
+      extension: .Rmd
+      format_name: rmarkdown
+      format_version: '1.2'
+      jupytext_version: 1.13.7
+  kernelspec:
+    display_name: Python 3
+    language: python
+    name: python3
+---
+
+```{python}
+# Initialize Otter
+import otter
+grader = otter.Notebook("lab01.ipynb")
+```
+
+```{python}
+grader.check("q0")
+```
